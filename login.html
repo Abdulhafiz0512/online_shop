@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8a82595a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./js/login.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header_top">
+        <div class="container">
+          <div class="part1">
+            <p>
+              Summer Sale For All Swim Suits And Free Express Delivery - OFF
+              50%!
+            </p>
+            <a href="#">ShopNow</a>
+          </div>
+          <div class="part2">
+            <select name="lang" id="lang">
+              <option value="1">English</option>
+              <option value="2">Uzbek</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="header_bottom">
+        <div class="container">
+          <a href="/home.html"><h1>Exclusive</h1></a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Sign in</a></li>
+          </ul>
+          <div class="actions">
+            <input type="text" placeholder="What are you looking for?" />
+            <div class="buttons">
+              <button><img src="./assets/icons/Wishlist.svg" alt="" /></button>
+              <button>
+                <img src="./assets/icons/Cart1 with buy.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+    </header>
+    <main>
+      <section id="login">
+        <img src="./assets/images/Side Image.png" alt="" />
+        <div class="form-control">
+          <h1>Log in to Exclusive</h1>
+          <h2>Enter your details below</h2>
+          <form id="loginForm">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Email or phone number"
+            /><br />
+
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            /><br /><br />
+            <div class="below">
+                
+            <button type="submit">Log In</button>
+            <a href="/login.html">Forgot Password</a>
+            </div>
+            
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

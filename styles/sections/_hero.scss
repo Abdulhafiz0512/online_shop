@@ -1,0 +1,43 @@
+#hero{
+    margin-top: 40px;
+    .container{
+        .banner{
+            display: flex;
+            align-items: center;   
+            justify-content: center;
+        }
+    }
+
+  @media (max-width: 768px) {
+    .container {
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+    }
+    

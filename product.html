@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exclusive</title>
+        <link rel="stylesheet" href="./css/main.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+          rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b8a82595a5.js" crossorigin="anonymous"></script>
+        <script type="module" src="./js/product.js"></script>
+      </head>
+<body>
+    <header>
+        <div class="header_top">
+          <div class="container">
+            <div class="part1">
+              <p>
+                Summer Sale For All Swim Suits And Free Express Delivery - OFF
+                50%!
+              </p>
+              <a href="#">ShopNow</a>
+            </div>
+            <div class="part2">
+              <select name="lang" id="lang">
+                <option value="1">English</option>
+                <option value="2">Uzbek</option>
+              </select>
+            </div>
+          </div>
+        </div>
+  
+        <div class="header_bottom">
+          <div class="container">
+            <a href="/home.html"><h1>Exclusive</h1></a>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Sign in</a></li>
+            </ul>
+            <div class="actions">
+              <input type="text" placeholder="What are you looking for?" />
+              <div class="buttons">
+                <button><img src="./assets/icons/Wishlist.svg" alt="" /></button>
+                <button>
+                  <img src="./assets/icons/Cart1 with buy.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+      </header>
+    <main>
+        <section id="single_product">
+            <div class="container">
+                <div id="path">
+                     <p >Account  /  Gaming  /</p>
+                </div>
+                <div class="details">
+                    <div class="first_column">
+                        <img src="./assets/images/Frame 895.png" alt="">
+                        <img src="./assets/images/Frame 895.png" alt="">
+                        <img src="./assets/images/Frame 895.png" alt="">
+                        <img src="./assets/images/Frame 895.png" alt="">
+                    </div>
+                    <div id="second_column">
+                        
+                    </div>
+                    <div class="third_column">
+                        <div id="top">
+                        
+                    </div>
+                        <div class="line_long"></div>
+                        <div class="bottom">
+                            <div class="colors">
+                                <p class="col">Colours:</p>
+                                <div class="col1"></div>
+                                <div class="col2"></div>
+                            </div>
+                            <div class="size">
+                                <p class="siz">Size:</p>
+                                <button><p>XS</p></button>
+                                <button><p>S</p></button>
+                                <button><p>M</p></button>
+                                <button><p>L</p></button>
+                                <button><p>XL</p></button>
+                            </div>
+                            <div class="actions">
+                                <div class="counter">
+                                    <button class="btn1 minus" onclick="decrement()" >−</button>
+                                    <input type="text" id="counterValue" value="2" readonly>
+                                    <button class="btn2 plus" onclick="increment()" >+</button>
+                                </div>
+                                <button class="buy">Buy Now</button>
+                                <button class="fav">
+                                    <i class="fa-regular fa-heart"></i>
+                                </button>
+                            </div>
+                            <div class="box">
+                                <div class="topbox">
+                                    <div class="first">
+                                        <img src="./assets/icons/icon-delivery.svg" alt="">
+                                    </div>
+                                    <div class="second">
+                                        <h5>Free Delivery</h5>
+                                        <a href=""><p>Enter your postal code for Delivery Availability</p></a>
+
+                                    </div>
+                                </div>
+                                <div class="line"></div>
+                                <div class="topbox">
+                                    <div class="first">
+                                        <img src="./assets/icons/Icon-return.svg" alt="">
+
+                                    </div>
+                                    <div class="second">
+                                        <h5>Return Delivery</h5>
+                                        <p>Free 30 Days Delivery Returns. <a href="">Details</a></p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="loader-overlay" id="loaderOverlay">
+      <div class="loader">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+      </div>
+  </div>
+</body>
+</html>
